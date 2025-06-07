@@ -1,0 +1,139 @@
+﻿  example.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file 'example.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file 'example.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file 'example.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file 'example.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file 'example.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file 'example.cpp')
+  
+  fixed_template_test_v2.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(267,92): warning C4127: conditional expression is constant
+  (compiling source file '../../../examples/performance_test/fixed_template_test_v2.cpp')
+      C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(267,92):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Finsol\Downloads\mfast\mfast\examples\performance_test\fixed_template_test_v2.cpp(112,57):
+          see reference to function template instantiation 'mfast::fast_encoder_v2::fast_encoder_v2<example::templates_description,,void>(const Description1 *)' being compiled
+          with
+          [
+              Description1=example::templates_description
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\fast_encoder_v2.h(31,11):
+          see reference to function template instantiation 'void mfast::coder::fast_encoder_core::init<const Description1*>(const Description1 *)' being compiled
+          with
+          [
+              Description1=example::templates_description
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(54,11):
+          see reference to function template instantiation 'void mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::build<const Description1*>(const Description1 *)' being compiled
+          with
+          [
+              Description1=example::templates_description
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\template_repo.h(106,13):
+          see reference to function template instantiation 'void mfast::dictionary_builder::build_from_descriptions<mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter,const Description1*>(const Operation &,const Description1 *)' being compiled
+          with
+          [
+              Description1=example::templates_description,
+              Operation=mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.h(74,10):
+          see reference to function template instantiation 'int mfast::dictionary_builder::build<Operation,Description1>(const Operation &,const Description *)' being compiled
+          with
+          [
+              Operation=mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter,
+              Description1=example::templates_description,
+              Description=example::templates_description
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.h(87,11):
+          see reference to function template instantiation 'void mfast::dictionary_builder::build_message_infos<mfast::dictionary_builder::build::Messages,Operation,0,1,2>(const Operation &,const mfast::integer_sequence<T,0,1,2> &)' being compiled
+          with
+          [
+              Operation=mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter,
+              T=unsigned __int64
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.h(94,16):
+          see reference to function template instantiation 'int mfast::dictionary_builder::build_message_info<example::MarketData,Operation>(const Operation &)' being compiled
+          with
+          [
+              Operation=mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.h(100,5):
+          see reference to function template instantiation 'void mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::repo_entry_inserter::operator ()<Message>(mfast::template_instruction *,Message *) const' being compiled
+          with
+          [
+              Message=example::MarketData
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\template_repo.h(73,14):
+          see reference to function template instantiation 'void mfast::template_repo<mfast::coder::fast_encoder_core::info_entry_converter>::add_template<Message>(mfast::template_instruction *,Message *)' being compiled
+          with
+          [
+              Message=example::MarketData
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\template_repo.h(136,45):
+          see reference to function template instantiation 'mfast::coder::fast_encoder_core::info_entry mfast::coder::fast_encoder_core::info_entry_converter::to_repo_entry<Message>(mfast::template_instruction *,Message *)' being compiled
+          with
+          [
+              Message=example::MarketData
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(127,24):
+          while compiling class template member function 'std::tuple<mfast::template_instruction *,mfast::coder::fast_encoder_core::message_encode_function_t>::tuple(const _This &,const mfast::coder::fast_encoder_core::message_encode_function_t &) noexcept(<expr>)'
+          with
+          [
+              _This=mfast::template_instruction *
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(127,51):
+          see reference to function template instantiation 'void mfast::coder::fast_encoder_core::encode_message<Message>(const mfast::message_cref &)' being compiled
+          with
+          [
+              Message=example::MarketData
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(174,7):
+          see reference to function template instantiation 'void example::MarketData_cref::accept<mfast::coder::fast_encoder_core>(Visitor &)' being compiled
+          with
+          [
+              Visitor=mfast::coder::fast_encoder_core
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\example.inl(199,11):
+          see reference to function template instantiation 'void mfast::coder::fast_encoder_core::visit<mfast::ext_cref<mfast::sequence_cref,mfast::ext_cref<mfast::uint32_cref,mfast::none_operator_tag,mfast::properties_type<0>>,mfast::ext_cref<example::MarketData_cref::MDEntries_element_cref,mfast::sequence_element_tag,mfast::properties_type<30>>>>(const T &)' being compiled
+          with
+          [
+              T=mfast::ext_cref<mfast::sequence_cref,mfast::ext_cref<mfast::uint32_cref,mfast::none_operator_tag,mfast::properties_type<0>>,mfast::ext_cref<example::MarketData_cref::MDEntries_element_cref,mfast::sequence_element_tag,mfast::properties_type<30>>>
+          ]
+          C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h(203,9):
+          see reference to function template instantiation 'void mfast::coder::fast_encoder_core::encode_field<T>(const T &,mfast::sequence_type_tag)' being compiled
+          with
+          [
+              T=mfast::ext_cref<mfast::sequence_cref,mfast::ext_cref<mfast::uint32_cref,mfast::none_operator_tag,mfast::properties_type<0>>,mfast::ext_cref<example::MarketData_cref::MDEntries_element_cref,mfast::sequence_element_tag,mfast::properties_type<30>>>
+          ]
+  
+  Generating Code...
+  mf_fixed_decode_encode_v2.vcxproj -> C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\Release\mf_fixed_decode_encode_v2.exe

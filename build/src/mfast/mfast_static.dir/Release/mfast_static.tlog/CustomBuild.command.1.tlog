@@ -1,0 +1,10 @@
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\SRC\MFAST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/src/mfast/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

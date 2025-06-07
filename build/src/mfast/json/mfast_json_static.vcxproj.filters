@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\mfast_json_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5091524B-FB74-3379-A010-914CA3C741CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{628F5BB3-F740-34A8-952F-53CE858BD39E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,175 @@
+﻿  allocator.cpp
+  arena_allocator.cpp
+  boolean_ref.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/boolean_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/boolean_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/boolean_ref.cpp')
+  
+  decimal_ref.cpp
+  exceptions.cpp
+  field_instructions.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_instructions.cpp')
+  
+  field_ref.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/field_ref.cpp')
+  
+  malloc_allocator.cpp
+  sequence_ref.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/sequence_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/sequence_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/sequence_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../src/mfast/sequence_ref.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../src/mfast/sequence_ref.cpp')
+  
+  value_storage.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp(51,18): warning C4244: 'argument': conversion from 'int' to '_Elem', possible loss of data
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp(51,18): warning C4244:         with
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp(51,18): warning C4244:         [
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp(51,18): warning C4244:             _Elem=char
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp(51,18): warning C4244:         ]
+  view_iterator.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file '../src/mfast/view_iterator.cpp')
+  
+  byte_vector_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/byte_vector_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/byte_vector_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/byte_vector_instruction.cpp')
+  
+  decimal_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/decimal_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/decimal_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/decimal_instruction.cpp')
+  
+  enum_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/enum_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/enum_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/enum_instruction.cpp')
+  
+  field_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/field_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/field_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/field_instruction.cpp')
+  
+  group_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/group_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/group_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/group_instruction.cpp')
+  
+  int_instructions.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/int_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/int_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/int_instructions.cpp')
+  
+  sequence_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/sequence_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/sequence_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/sequence_instruction.cpp')
+  
+  string_instructions.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/string_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/string_instructions.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/string_instructions.cpp')
+  
+  template_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/template_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/template_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/template_instruction.cpp')
+  
+  Generating Code...
+  Compiling...
+  templateref_instruction.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/templateref_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/templateref_instruction.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/templateref_instruction.cpp')
+  
+  vector_instruction_base.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/vector_instruction_base.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/vector_instruction_base.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../src/mfast/instructions/vector_instruction_base.cpp')
+  
+  Generating Code...
+  mfast_static.vcxproj -> C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\Release\mfast_static.lib

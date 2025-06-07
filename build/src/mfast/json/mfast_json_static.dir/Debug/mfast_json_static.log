@@ -1,0 +1,48 @@
+﻿  Building Custom Rule C:/Users/Finsol/Downloads/mfast/mfast/src/mfast/json/CMakeLists.txt
+  json_decode.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file '../../../../src/mfast/json/json_decode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp(120,20): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp(172,25): warning C4456: declaration of 'buf' hides previous local declaration
+      C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp(94,19):
+      see declaration of 'buf'
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp(232,23): warning C4244: 'argument': conversion from 'int' to 'char', possible loss of data
+  json_encode.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file '../../../../src/mfast/json/json_encode.cpp')
+  
+  Generating Code...
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\json_decode.cpp(279,1): warning C4702: unreachable code
+  mfast_json_static.vcxproj -> C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\Debug\mfast_json_static.lib

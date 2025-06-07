@@ -1,0 +1,129 @@
+﻿  field_ref_test.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/field_ref_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/field_ref_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/field_ref_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/field_ref_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/field_ref_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(111,7): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(111,7): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(310,7): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(310,7): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(591,7): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp(591,7): error C2529: 'abstract declarator': you cannot create a reference to a reference
+  fast_istream_test.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/fast_istream_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/fast_istream_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/fast_istream_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/fast_istream_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/fast_istream_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(107,8): warning C4189: 'res': local variable is initialized but not referenced
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(129,3): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(129,3): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(130,3): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(130,3): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(131,3): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp(131,3): error C2529: 'abstract declarator': you cannot create a reference to a reference
+  decoder_operator_test.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/decoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/decoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/decoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/decoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/decoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(500,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(500,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(502,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(502,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(647,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(647,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(648,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(648,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(980,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(980,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(985,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(985,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1119,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1119,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1121,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1121,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1259,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp(1259,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+  encoder_operator_test.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/encoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/encoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/encoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/encoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/encoder_operator_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(531,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(531,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(533,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(533,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(690,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(690,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(692,5): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp(692,5): error C2529: 'abstract declarator': you cannot create a reference to a reference
+  json_test.cpp
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(206,19): warning C4244: 'initializing': conversion from 'mfast::operator_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(209,21): warning C4244: 'initializing': conversion from 'mfast::presence_enum_t' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h(214,45): warning C4244: 'initializing': conversion from 'int' to 'uint16_t', possible loss of data
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(300,45): warning C4244: '=': conversion from 'int32_t' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h(364,51): warning C4244: '=': conversion from 'int' to 'int16_t', possible loss of data
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h(16,45): warning C4245: 'initializing': conversion from '__int64' to 'const uint64_t', signed/unsigned mismatch
+  (compiling source file '../../tests/json_test.cpp')
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\json_test.cpp(113,17): warning C4456: declaration of 'result' hides previous local declaration
+      C:\Users\Finsol\Downloads\mfast\mfast\tests\json_test.cpp(91,15):
+      see declaration of 'result'
+  
+C:\Users\Finsol\Downloads\mfast\mfast\tests\json_test.cpp(131,3): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\Finsol\Downloads\mfast\mfast\tests\json_test.cpp(131,3): error C2529: 'abstract declarator': you cannot create a reference to a reference
+  Generating Code...

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\MDRefreshSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\message_printer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\MDRefreshSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\MDRefreshSample.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\f586fd965225c7ee6a1a85414e8f46c2\MDRefreshSample.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{25968357-1659-301E-B28E-E74249BB965F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5091524B-FB74-3379-A010-914CA3C741CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{628F5BB3-F740-34A8-952F-53CE858BD39E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

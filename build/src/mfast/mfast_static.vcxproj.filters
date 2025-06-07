@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\arena_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\boolean_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\malloc_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\sequence_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\byte_vector_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\decimal_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\enum_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\group_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\int_instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\sequence_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\string_instructions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\template_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\templateref_instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\vector_instruction_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\aggregate_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\arena_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\array_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\boolean_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\composite_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\decimal_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\enum_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\ext_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_mref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\field_visitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\group_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\int_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\malloc_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\message_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\mfast_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\nested_message_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\sequence_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\sequence_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\string_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\type_category.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\value_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\vector_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\view_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\byte_vector_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\decimal_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\enum_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\field_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\group_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\int_instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\int_vector_instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\sequence_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\string_instructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\template_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\templateref_instruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\templates_description.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\instructions\vector_instruction_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5091524B-FB74-3379-A010-914CA3C741CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{628F5BB3-F740-34A8-952F-53CE858BD39E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\c5a683a33f057a71bc86123a44cfe206\dist.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\dist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{25968357-1659-301E-B28E-E74249BB965F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

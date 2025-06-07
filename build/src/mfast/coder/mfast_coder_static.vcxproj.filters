@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_field_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_presence_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_istream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\encoder_field_operator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_ostreambuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\codec_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\debug_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\template_repo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\check_overflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_field_operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_presence_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_istream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_istream_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_istreambuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder_v2\fast_decoder_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder_v2\fast_istream_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\encoder_field_operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\encoder_presence_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_ostream_inserter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_ostreambuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\resizable_fast_ostreambuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_ostream_inserter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\fast_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\fast_decoder_v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\fast_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\fast_encoder_v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\mfast_coder_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5091524B-FB74-3379-A010-914CA3C741CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{628F5BB3-F740-34A8-952F-53CE858BD39E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

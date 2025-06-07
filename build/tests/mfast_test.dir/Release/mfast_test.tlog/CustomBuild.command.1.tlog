@@ -1,0 +1,290 @@
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\TEST1.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test1.xml C:/Users/Finsol/Downloads/mfast/mfast/tests/test2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\TEST3.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\TEST4.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\TEST5.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SCP.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/scp.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE1.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple1.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE2.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE3.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE4.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE5.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE6.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple6.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE7.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple7.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE8.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple8.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE9.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple9.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE10.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple10.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE11.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple11.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE12.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple12.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE13.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple13.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE14.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple14.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\74F61FE9CB4B3DAE0B605ABB07BDD5FC\SIMPLE15.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple15.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\TESTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

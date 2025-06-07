@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\Debug\mf_fixed_decode.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\Debug\mf_fixed_decode_encode.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\Debug\mf_fixed_decode_v2.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\Debug\mf_fixed_decode_encode_v2.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

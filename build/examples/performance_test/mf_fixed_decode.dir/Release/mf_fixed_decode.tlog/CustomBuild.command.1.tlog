@@ -1,0 +1,24 @@
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\252ED8E8B3338E68FA51E5CEC6FC01C3\EXAMPLE.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/examples/performance_test/example.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\EXAMPLES\PERFORMANCE_TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/examples/performance_test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

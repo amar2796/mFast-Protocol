@@ -1,0 +1,1893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F975EF28-D813-3066-A424-BE76CE154987}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mfast_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mfast_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mfast_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mfast_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mfast_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mfast_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mfast_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mfast_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mfast_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Finsol/Downloads/boost_1_88_0/boost_1_88_0"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\mfast\Debug\mfast_static.lib;..\src\mfast\coder\Debug\mfast_coder_static.lib;..\src\mfast\json\Debug\mfast_json_static.lib;..\src\mfast\xml_parser\Debug\mfast_xml_parser_static.lib;..\src\mfast\Debug\mfast_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/Debug/mfast_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/Debug/mfast_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\mfast\mfast\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Finsol/Downloads/boost_1_88_0/boost_1_88_0"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\mfast\Release\mfast_static.lib;..\src\mfast\coder\Release\mfast_coder_static.lib;..\src\mfast\json\Release\mfast_json_static.lib;..\src\mfast\xml_parser\Release\mfast_xml_parser_static.lib;..\src\mfast\Release\mfast_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/Release/mfast_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/Release/mfast_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Finsol/Downloads/boost_1_88_0/boost_1_88_0"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\mfast\MinSizeRel\mfast_static.lib;..\src\mfast\coder\MinSizeRel\mfast_coder_static.lib;..\src\mfast\json\MinSizeRel\mfast_json_static.lib;..\src\mfast\xml_parser\MinSizeRel\mfast_xml_parser_static.lib;..\src\mfast\MinSizeRel\mfast_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/MinSizeRel/mfast_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/MinSizeRel/mfast_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Finsol/Downloads/boost_1_88_0/boost_1_88_0"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SIZEOF_VOID_P=8;MFAST_STATIC_DEFINE;MFAST_CODER_STATIC_DEFINE;MFAST_JSON_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Finsol\Downloads\mfast\mfast\build\tests;C:\Users\Finsol\Downloads\mfast\mfast\catch\include;C:\Users\Finsol\Downloads\mfast\mfast\src;C:\Users\Finsol\Downloads\mfast\mfast\tinyxml2;C:\Users\Finsol\Downloads\boost_1_88_0\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\mfast\RelWithDebInfo\mfast_static.lib;..\src\mfast\coder\RelWithDebInfo\mfast_coder_static.lib;..\src\mfast\json\RelWithDebInfo\mfast_json_static.lib;..\src\mfast\xml_parser\RelWithDebInfo\mfast_xml_parser_static.lib;..\src\mfast\RelWithDebInfo\mfast_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/RelWithDebInfo/mfast_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Finsol/Downloads/mfast/mfast/build/tests/RelWithDebInfo/mfast_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\test1.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][test_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test1.xml C:/Users/Finsol/Downloads/mfast/mfast/tests/test2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test1.xml;C:\Users\Finsol\Downloads\mfast\mfast\tests\test2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.inl;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][test_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test1.xml C:/Users/Finsol/Downloads/mfast/mfast/tests/test2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test1.xml;C:\Users\Finsol\Downloads\mfast\mfast\tests\test2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.inl;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][test_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test1.xml C:/Users/Finsol/Downloads/mfast/mfast/tests/test2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test1.xml;C:\Users\Finsol\Downloads\mfast\mfast\tests\test2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.inl;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][test_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test1.xml C:/Users/Finsol/Downloads/mfast/mfast/tests/test2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test1.xml;C:\Users\Finsol\Downloads\mfast\mfast\tests\test2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.inl;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\test3.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][test_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][test_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][test_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][test_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\test4.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][test_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][test_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][test_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][test_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\test5.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][test_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][test_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][test_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][test_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/test5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\test5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\scp.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][test_scp] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/scp.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\scp.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][test_scp] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/scp.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\scp.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][test_scp] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/scp.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\scp.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][test_scp] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/scp.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\scp.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple1.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple1.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple1.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple1.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple1.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple1.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple1.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types1] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple1.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple1.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple2.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types2] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types2] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types2] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types2] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple2.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple2.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple3.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types3] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple3.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple3.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple4.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types4] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple4.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple4.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple5.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types5] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple5.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple5.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple6.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types6] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple6.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple6.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types6] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple6.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple6.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types6] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple6.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple6.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types6] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple6.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple6.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple7.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types7] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple7.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple7.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types7] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple7.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple7.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types7] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple7.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple7.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types7] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple7.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple7.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple8.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types8] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple8.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple8.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types8] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple8.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple8.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types8] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple8.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple8.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types8] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple8.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple8.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple9.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types9] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple9.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple9.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types9] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple9.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple9.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types9] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple9.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple9.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types9] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple9.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple9.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple10.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types10] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple10.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple10.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types10] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple10.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple10.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types10] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple10.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple10.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types10] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple10.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple10.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple11.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types11] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple11.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple11.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types11] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple11.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple11.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types11] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple11.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple11.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types11] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple11.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple11.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple12.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types12] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple12.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple12.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types12] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple12.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple12.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types12] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple12.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple12.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types12] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple12.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple12.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple13.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types13] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple13.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple13.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types13] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple13.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple13.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types13] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple13.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple13.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types13] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple13.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple13.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple14.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types14] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple14.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple14.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types14] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple14.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple14.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types14] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple14.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple14.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types14] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple14.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple14.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\74f61fe9cb4b3dae0b605abb07bdd5fc\simple15.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">[FASTTYPEGEN][simple_types15] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple15.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple15.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Debug\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">[FASTTYPEGEN][simple_types15] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple15.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple15.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">[FASTTYPEGEN][simple_types15] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple15.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple15.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\MinSizeRel\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">[FASTTYPEGEN][simple_types15] Building Fast Application Types</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\tests
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/tests/simple15.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\tests\simple15.xml;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\RelWithDebInfo\fast_type_gen.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.h;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Finsol/Downloads/mfast/mfast/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Finsol/Downloads/mfast/mfast/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Finsol/Downloads/mfast/mfast/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Finsol/Downloads/mfast/mfast/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\test_main.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\arena_allocator_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\field_ref_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_istream_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_ostream_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\decoder_operator_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_operator_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_decoder_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_decoder_test_v2.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_decoder_pmap.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\encoder_decoder_pmap_v2.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\field_comparator_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\group_encoder_decoder_v2.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\group_encoder_decoder.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\coder_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\value_storage_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test1.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test2.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test3.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test4.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\test5.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\scp.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple1.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple2.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple3.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple4.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple5.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple6.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple7.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple8.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple9.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple10.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple11.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple12.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple13.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple14.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.cpp" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.h" />
+    <ClInclude Include="C:\Users\Finsol\Downloads\mfast\mfast\build\tests\simple15.inl" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\fast_type_gen_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\dictionary_builder_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\json_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\int_vector_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\composite_type_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\aggregate_view_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\simple_coder_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\sequence_encoder_decoder_v2.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\sequence_encoder_decoder.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\scp_reset_test.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\template_repo_base.cpp" />
+    <ClCompile Include="C:\Users\Finsol\Downloads\mfast\mfast\tests\message_pmap_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\ZERO_CHECK.vcxproj">
+      <Project>{89AA795A-3432-32B6-B121-993E6B10A2D0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\fast_type_gen.vcxproj">
+      <Project>{FC118839-CFBB-3E39-82DA-71AF28CEE8D5}</Project>
+      <Name>fast_type_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.vcxproj">
+      <Project>{3D916491-C459-3A83-A5B2-A73A44891CC4}</Project>
+      <Name>mfast_coder_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\mfast_json_static.vcxproj">
+      <Project>{C343BD22-3371-3A16-ACDD-5D47BA7D6A6B}</Project>
+      <Name>mfast_json_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\mfast_static.vcxproj">
+      <Project>{5FC4A506-C5D4-3C36-85F1-8430B1F20B13}</Project>
+      <Name>mfast_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\mfast_xml_parser_static.vcxproj">
+      <Project>{67EE8898-9ED6-3ADC-B4A7-7F3385BEFD20}</Project>
+      <Name>mfast_xml_parser_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\tinyxml2_static.vcxproj">
+      <Project>{15B6C778-2809-35F8-A256-F6790473E44B}</Project>
+      <Name>tinyxml2_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

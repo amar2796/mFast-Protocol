@@ -1,0 +1,24 @@
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\BUILD\CMAKEFILES\F586FD965225C7EE6A1A85414E8F46C2\MDREFRESHSAMPLE.CPP.RULE
+setlocal
+cd C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\Release\fast_type_gen.exe -- C:/Users/Finsol/Downloads/mfast/mfast/examples/message_printer/MDRefreshSample.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FINSOL\DOWNLOADS\MFAST\MFAST\EXAMPLES\MESSAGE_PRINTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-file C:/Users/Finsol/Downloads/mfast/mfast/build/examples/message_printer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

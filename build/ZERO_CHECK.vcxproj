@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89AA795A-3432-32B6-B121-993E6B10A2D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Finsol/Downloads/mfast/mfast/build/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Finsol/Downloads/mfast/mfast/build/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Finsol/Downloads/mfast/mfast/build/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Checking File Globs</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Finsol/Downloads/mfast/mfast/build/CMakeFiles/VerifyGlobs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\c5a683a33f057a71bc86123a44cfe206\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Finsol/Downloads/mfast/mfast/build/mFAST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\Emscripten.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\FastTypeGenTarget.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\GenProjectConfig.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetCompilerWarnings.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetupCoverage.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\mFASTConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\examples\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\hello_world\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\performance_test\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\fast_type_gen\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\xml_parser\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\tests\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\hello_world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Finsol/Downloads/mfast/mfast/build/mFAST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\Emscripten.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\FastTypeGenTarget.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\GenProjectConfig.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetCompilerWarnings.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetupCoverage.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\mFASTConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\examples\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\hello_world\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\performance_test\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\fast_type_gen\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\xml_parser\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\tests\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\hello_world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Finsol/Downloads/mfast/mfast/build/mFAST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\Emscripten.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\FastTypeGenTarget.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\GenProjectConfig.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetCompilerWarnings.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetupCoverage.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\mFASTConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\examples\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\hello_world\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\performance_test\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\fast_type_gen\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\xml_parser\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\tests\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\hello_world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Finsol/Downloads/mfast/mfast -BC:/Users/Finsol/Downloads/mfast/mfast/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Finsol/Downloads/mfast/mfast/build/mFAST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\Emscripten.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\FastTypeGenTarget.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\GenProjectConfig.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetCompilerWarnings.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\SetupCoverage.cmake;C:\Users\Finsol\Downloads\mfast\mfast\cmake\mFASTConfig.cmake.in;C:\Users\Finsol\Downloads\mfast\mfast\examples\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\hello_world\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\message_printer\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\examples\performance_test\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\fast_type_gen\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\json\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\xml_parser\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\tests\CMakeLists.txt;C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Finsol\Downloads\mfast\mfast\build\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\xml_parser\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\json\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\fast_type_gen\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\tests\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\performance_test\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\message_printer\CMakeFiles\generate.stamp;C:\Users\Finsol\Downloads\mfast\mfast\build\examples\hello_world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

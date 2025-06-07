@@ -1,0 +1,9 @@
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\common\dictionary_builder.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\dictionary_builder.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_field_operator.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\decoder_field_operator.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\decoder_presence_map.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\decoder_presence_map.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_decoder.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\fast_decoder.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\decoder\fast_istream.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\fast_istream.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\encoder_field_operator.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\encoder_field_operator.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_encoder.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\fast_encoder.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder\fast_ostreambuf.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\fast_ostreambuf.obj
+C:\Users\Finsol\Downloads\mfast\mfast\src\mfast\coder\encoder_v2\fast_encoder_core.cpp;C:\Users\Finsol\Downloads\mfast\mfast\build\src\mfast\coder\mfast_coder_static.dir\Debug\fast_encoder_core.obj
