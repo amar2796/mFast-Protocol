@@ -95,6 +95,7 @@ In the MDRefreshSample example, to read the contained fields, we need to use cre
 
 Here is an example for reading field values in mFAST.
 
+```cpp
 using namespace mfast;
 void print_sample(const example::MDRefreshSample_cref& ref)
 {
@@ -114,8 +115,11 @@ example::MDRefreshSample message;
 // message value is assigned somewhere else
 
 print_sample(message.cref());
+```
+
 All mutable reference classes are derived from the const reference counterpart. In other words, int32_cref is the base class of int32_mref, seqence_cref is the base class of sequence_mref, etc. However, field_mref is not the base class of more specific mutable reference classes for fields such as int32_mref or sequence_mref; instead, those classes have an explicit type conversion constructor so that it's possible to static_cast from a field_mref object to a more specific mutable reference object. The following code demonstrates how to assign fields values.
 
+```cpp
 using namespace mfast;
 example::MDRefreshSample message;
 example::MDRefreshSample_mref ref = message.mref();
@@ -151,6 +155,8 @@ assert(mref.set_SenderCompID.size() == 1);
 mref.set_SenderCompID.clear(); // becomes zero length string
 assert(mref.set_SenderCompID.present());
 assert(mref.set_SenderCompID.size() == 0);
+```
+
 Notice that mFAST reference objects are like C/C++ build-in pointers in that no logic is involved to track the lifetime of the field/value they refer to; i.e. no reference counting is employed. Once a top level value holder object is destroyed, all the references stem from that value holder object become dangling references. Therefore, it is very important that a reference object cannot be used when its value holder object is destroyed. However, it is possible to create a new value holder object from an existing constant reference object, i.e. object cloning, so that the new value holder has a different lifetime than the object from which it was cloned.
 
 Reference objects are small and inexpensive to copy: a constant reference object contains only 2 pointers internally while a mutable reference object contains 3 pointers. Because no reference counting is involved, copying a reference object does not impede efficiency by damaging cache performance and creating pipeline bubbles.
